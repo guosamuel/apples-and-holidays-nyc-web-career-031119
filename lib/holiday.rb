@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.each do |season, holidays|
-    print "#{season.to_s.capitalize!}:"
+    puts "#{season.to_s.capitalize!}:"
     holidays.each do |occassion, supplies|
       transformation = occassion.to_s.split("_")
       counter = 0
@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       
       
-      print "#{transformation.join(" ")}: #{supplies.join(", ")}"
+      puts "#{transformation.join(" ")}: #{supplies.join(", ")}"
       
     end
   end
