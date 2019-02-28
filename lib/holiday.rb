@@ -69,6 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       while counter < transformation.length
         transformation[counter].capitalize!
+        counter += 1
       end
       
       
