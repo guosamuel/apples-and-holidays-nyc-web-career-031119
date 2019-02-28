@@ -72,7 +72,6 @@ def all_supplies_in_holidays(holiday_hash)
         counter += 1
       end
       
-      
       puts "  #{transformation.join(" ")}: #{supplies.join(", ")}"
       
     end
