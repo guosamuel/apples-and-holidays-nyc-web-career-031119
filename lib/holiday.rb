@@ -65,6 +65,10 @@ def all_supplies_in_holidays(holiday_hash)
     print "#{season.to_s.capitalize!}:"
     holidays_hash.each do |occassion, supplies|
       transformation = occassion.to_s.split(_)
+      counter = 0
+      
+      while counter < transformation.length
+        transformation.capitalize!
   end
   
 end
